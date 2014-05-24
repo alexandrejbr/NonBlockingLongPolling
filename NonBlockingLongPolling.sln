@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonBlockingLongPolling", "NonBlockingLongPolling\NonBlockingLongPolling.csproj", "{66AED31D-19D9-4152-A0DA-3CA77AA15350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{666C2113-3FC2-4D30-89F6-F9B51F0162A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66AED31D-19D9-4152-A0DA-3CA77AA15350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AED31D-19D9-4152-A0DA-3CA77AA15350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AED31D-19D9-4152-A0DA-3CA77AA15350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AED31D-19D9-4152-A0DA-3CA77AA15350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666C2113-3FC2-4D30-89F6-F9B51F0162A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666C2113-3FC2-4D30-89F6-F9B51F0162A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666C2113-3FC2-4D30-89F6-F9B51F0162A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666C2113-3FC2-4D30-89F6-F9B51F0162A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

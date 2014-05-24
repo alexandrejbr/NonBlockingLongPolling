@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Non Blocking Long Polling</title>
+    <meta charset="UTF-8">
+</head>
+    <body>
+        <h2>Take values</h2>
+        <a href="@this.Url.HttpRouteUrl("DefaultApi", new { controller = "Values" })">Take!</a>
+        <h2>Put values</h2>
+        <!--Not working yet-->
+        <form method="POST" action="@this.Url.HttpRouteUrl("DefaultApi", new { controller = "Values" })">
+            <input type="text" name=""/>
+            <input type="submit" value="Send"/>
+        </form>
+    </body>
+</html>
