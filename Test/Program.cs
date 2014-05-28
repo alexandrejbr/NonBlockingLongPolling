@@ -15,11 +15,16 @@ namespace Test
 
             List<Task<HttpResponseMessage>> responses = new List<Task<HttpResponseMessage>>();
 
-            for (int i = 0; i < 10000; ++i)
+            Parallel.For(0, 100000, (i) =>
             {
                 responses.Add(client.GetAsync("http://localhost:1602/api/values"));
                 Console.WriteLine(i);
-            }
+            });
+            //for (int i = 0; i < 100000; ++i)
+            //{
+            //    responses.Add(client.GetAsync("http://localhost:1602/api/values"));
+            //    Console.WriteLine(i);
+            //}
 
             foreach (var response in responses)
             {

@@ -19,8 +19,7 @@ namespace NonBlockingLongPolling.Controllers
             {
                 if (t.IsFaulted)
                     throw new HttpResponseException(HttpStatusCode.SeeOther);
-                else
-                    return t.Result;
+                return t.Result;
             });
         }
 

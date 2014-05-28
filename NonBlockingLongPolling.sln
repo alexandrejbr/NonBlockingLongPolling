@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonBlockingLongPolling", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{666C2113-3FC2-4D30-89F6-F9B51F0162A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonBlockingLongPollingSelfHosted", "NonBlockingLongPollingSelfHosted\NonBlockingLongPollingSelfHosted.csproj", "{47027CF7-6ABE-4181-9B48-FB4A9215EE47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonBlockingTaskUtilities", "NonBlockingTaskUtilities\NonBlockingTaskUtilities.csproj", "{D84BEE64-FB72-4CDB-BBC2-54ACB3205E48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{666C2113-3FC2-4D30-89F6-F9B51F0162A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{666C2113-3FC2-4D30-89F6-F9B51F0162A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{666C2113-3FC2-4D30-89F6-F9B51F0162A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47027CF7-6ABE-4181-9B48-FB4A9215EE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47027CF7-6ABE-4181-9B48-FB4A9215EE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47027CF7-6ABE-4181-9B48-FB4A9215EE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47027CF7-6ABE-4181-9B48-FB4A9215EE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84BEE64-FB72-4CDB-BBC2-54ACB3205E48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84BEE64-FB72-4CDB-BBC2-54ACB3205E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84BEE64-FB72-4CDB-BBC2-54ACB3205E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84BEE64-FB72-4CDB-BBC2-54ACB3205E48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
